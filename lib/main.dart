@@ -34,7 +34,7 @@ class DiamondApp extends StatelessWidget {
                 style: TextStyle(fontFamily: 'Sofia', fontSize: 60),
               ),
             ),
-            Image.asset('assets/images/pngwing.png')
+            Expanded(child: Image.asset('assets/images/pngwing.png'))
           ],
         ),
       ),
